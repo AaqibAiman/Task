@@ -131,6 +131,7 @@ class ListFragment : Fragment() , CustomAdapter.OnClickItem {
         val ft = fragmentManager?.beginTransaction()
         ft?.replace(R.id.nav_host_fragment, DetailsFragment(bundle))
         ft?.commit()
+        ft?.addToBackStack(null)
 
 
     }
