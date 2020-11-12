@@ -52,12 +52,6 @@ class DetailsFragment(var bundle: Bundle) : Fragment() {
 
         getComments()
 
-       /// Log.d("Result :---->", "$comments.")
-
-        /* result!!.observe(viewLifecycleOwner , Observer {
-             Log.d("Comments Of Result" , "${it.comment}")
-         })*/
-
     }
 
     private fun getComments()  {
